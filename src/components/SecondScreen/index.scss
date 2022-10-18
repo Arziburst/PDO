@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import "../../assets/variables.scss";
+
+.SecondScreen {
+  width: 100%;
+  height: 100vh;
+  background: #fbfbfb;
+
+  &__container {
+    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+.tblock2 {
+  width: 566px;
+
+  & h1 {
+    margin-bottom: 24px;
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  & p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+}
+
+.logo2 {
+  width: 498px;
+  height: 390px;
+  margin-left: 163px;
+
+  & img {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 124px;
+    line-height: 155px;
+    color: #019748;
+  }
+}

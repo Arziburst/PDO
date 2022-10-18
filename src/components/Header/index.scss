@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+@import "../../assets/variables.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__navbar {
+    border: 2px solid black;
+  }
+
+  &__logo {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29px;
+    margin-right: 53px;
+
+    & figure {
+      margin: 0;
+      & :first-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+.navbar {
+  &__top {
+    margin-bottom: 16px;
+    margin-top: 24px;
+    font-family: "Readex Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    color: #ffffff;
+    opacity: 0.6;
+    list-style-type: none;
+
+    &-link {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 32px 0 0;
+
+      & a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+      & img {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__bottom {
+    font-family: "Readex Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    &-link {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 32px 0 0;
+      & a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }
+}
