@@ -63,3 +63,36 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .Footer {
+    width: auto;
+    height: auto;
+
+    &__container {
+      margin: 0 auto;
+
+      &-top {
+        padding-bottom: 40px;
+        border-bottom: 1px solid #848484;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        border-bottom: none;
+      }
+
+      &-bottom {
+        height: 100px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .footer__logo {
+    display: none;
+  }
+}

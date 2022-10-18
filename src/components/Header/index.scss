@@ -74,3 +74,32 @@
     }
   }
 }
+
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding-left: 26px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .header__logo {
+    margin: 0;
+    &-text {
+      display: none;
+    }
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}

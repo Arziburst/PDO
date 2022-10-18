@@ -60,3 +60,39 @@
     color: #019748;
   }
 }
+
+@media (max-width: 576px) {
+  .SecondScreen {
+    &__container {
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+    }
+  }
+
+  .tblock2 {
+    width: auto;
+
+    & h1 {
+      margin: 40px 26px 8px 24px;
+      width: 325px;
+      height: 69px;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    & p {
+      margin: 0 24px;
+    }
+  }
+
+  .logo2 {
+    height: 216px;
+    width: 275px;
+    margin: 40px auto;
+    & img {
+      height: 216px;
+      width: 275px;
+    }
+  }
+}

@@ -50,3 +50,22 @@
     color: #ffffff;
   }
 }
+
+@media (max-width: 576px) {
+  .tblock {
+    width: 326px;
+    margin: 0 24px;
+    & > h1 {
+      width: auto;
+      height: auto;
+      margin-bottom: 12px;
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    & > p {
+      width: auto;
+      height: auto;
+    }
+  }
+}
