@@ -96,3 +96,11 @@
     display: none;
   }
 }
+
+@media (max-width: 1200px) {
+  .Footer {
+    &__container {
+      padding: 30px;
+    }
+  }
+}

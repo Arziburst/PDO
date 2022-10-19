@@ -96,3 +96,19 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .SecondScreen {
+    &__container {
+      margin: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .logo2 {
+    margin-left: 0px;
+  }
+}
